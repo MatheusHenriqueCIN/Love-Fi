@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors'); // Para permitir requisições do frontend
 const { OpenAI } = require('openai');
 const { google } = require('googleapis');
+const path = require('path'); // Adicionado 'path'
 
 const app = express();
 const port = process.env.PORT || 3001; // Porta do servidor
@@ -142,7 +143,13 @@ app.get('/api/surprise-me', async (req, res) => {
     }
 });
 
-// Inicia o servidor
-app.listen(port, () => {
-    console.log(`Servidor backend rodando em http://localhost:${port}`);
+// Serve a pasta 'dist' do frontend para todas as rotas
+app.use(express.static('dist'));
+
+// Redireciona todas as rotas para o index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'));
 });
+
+// Exporta a aplicação Express
+module.exports = app;
