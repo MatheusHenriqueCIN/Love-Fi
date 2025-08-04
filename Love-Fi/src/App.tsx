@@ -15,7 +15,7 @@ function App() {
     setVideos([]);
     try {
       const backendPort = import.meta.env.VITE_BACKEND_PORT || '3001';
-      const backendUrl = `http://localhost:${backendPort}/api/get-music-by-mood`;
+      const backendUrl = `${import.meta.env.VITE_API_URL}/api/get-music-by-mood`;
       
       const response = await fetch(backendUrl, {
         method: 'POST',
@@ -112,3 +112,4 @@ function App() {
 }
 
 export default App;
+
