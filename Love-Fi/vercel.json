@@ -13,6 +13,5 @@
       "source": "/(.*)",
       "destination": "/public/index.html"
     }
-  ],
-  "root": "/lo-fi-vibe-weaver"
+  ]
 }
