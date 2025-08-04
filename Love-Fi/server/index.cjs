@@ -143,13 +143,5 @@ app.get('/api/surprise-me', async (req, res) => {
     }
 });
 
-// Serve a pasta 'dist' do frontend para todas as rotas
-app.use(express.static('dist'));
-
-// Redireciona todas as rotas para o index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'dist', 'index.html'));
-});
-
 // Exporta a aplicação Express
 module.exports = app;
