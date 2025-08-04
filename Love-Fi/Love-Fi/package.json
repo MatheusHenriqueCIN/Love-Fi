@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start-backend": "node server/index.cjs",        
+    "start-backend": "node server/index.cjs",
     "dev:full": "npm run start-backend & npm run dev"
   },
   "dependencies": {
@@ -36,3 +36,4 @@
     "vite": "^7.0.4"
   }
 }
+
