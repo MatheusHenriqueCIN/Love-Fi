@@ -143,5 +143,4 @@ app.get('/api/surprise-me', async (req, res) => {
     }
 });
 
-// Exporta a aplicação Express
-module.exports = app;
+module.exports = app; // Exporta a aplicação Express
