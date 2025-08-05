@@ -46,7 +46,7 @@ function App() {
     setVideos([]);
     try {
       const backendPort = import.meta.env.VITE_BACKEND_PORT || '3001';
-      const backendUrl = `http://localhost:${backendPort}/api/surprise-me`;
+      const backendUrl = `${import.meta.env.VITE_API_URL}/api/surprise-me`;
       
       const response = await fetch(backendUrl);
 
@@ -112,4 +112,5 @@ function App() {
 }
 
 export default App;
+
 
