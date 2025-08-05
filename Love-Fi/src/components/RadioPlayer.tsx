@@ -11,8 +11,7 @@ const RadioPlayer: React.FC = () => {
   useEffect(() => {
     const fetchLiveStreams = async () => {
       try {
-        const backendPort = '3001';
-        const backendUrl = `http://localhost:${backendPort}/api/get-live-streams`;
+        const backendUrl = `${import.meta.env.VITE_API_URL}/api/get-live-streams`;
         const response = await fetch(backendUrl);
 
         if (!response.ok) {
@@ -141,3 +140,4 @@ const RadioPlayer: React.FC = () => {
 };
 
 export default RadioPlayer;
+
