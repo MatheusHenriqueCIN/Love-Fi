@@ -1,9 +1,9 @@
-/* src/index.css */
+
 
 /* Fonte "Press Start 2P" */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* Estilos globais para a página */
+
 body {
   margin: 0;
   font-family: 'Press Start 2P', sans-serif;
@@ -19,16 +19,15 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* O caminho para o GIF deve ser relativo à pasta public */
   background-image: url('/2f01eadfd0be42b8102c19b4d39052f6.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(0.4); /* Escurece o fundo para melhor leitura */
+  filter: brightness(0.4);
   z-index: -1;
 }
 
-/* Estilos para centralizar o conteúdo */
+
 .app-container {
   min-height: 100vh;
   display: flex;
@@ -39,13 +38,13 @@ body::before {
   padding: 2rem;
 }
 
-/* Estilos da caixa de texto e botão */
+
 .input-card {
-  /* Fundo totalmente transparente */
+  
   background-color: transparent; 
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 0 20px #f701ff33; /* Brilho Roxo */
+  box-shadow: 0 0 20px #f701ff33; 
   max-width: 800px;
   width: 100%;
   margin-top: 1rem;
@@ -58,9 +57,9 @@ body::before {
   color: white;
   border: 1px solid #f701ff33;
   border-radius: 0.5rem;
-  resize: none; /* Desativa o redimensionamento */
+  resize: none; 
   box-sizing: border-box;
-  font-family: 'Press Start 2P', sans-serif; /* Aplica a fonte aqui */
+  font-family: 'Press Start 2P', sans-serif; 
   font-size: 0.8rem;
 }
 
@@ -120,7 +119,6 @@ body::before {
 }
 
 .video-item {
-  /* Fundo do vídeo também transparente */
   background-color: transparent; 
   border-radius: 0.5rem;
   overflow: hidden;
@@ -152,3 +150,4 @@ body::before {
   font-size: 3.0rem;
   padding: 0.8rem;
 }
+
