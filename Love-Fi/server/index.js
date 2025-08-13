@@ -35,7 +35,7 @@ app.post('/api/get-music-by-mood', async (req, res) => {
             messages: [
                 {
                     role: "system",
-                    content: "Você é um assistente especialista em gerar frases de busca para o YouTube, com foco exclusivo em músicas lo-fi. Sua tarefa é traduzir o humor, a ocasião ou a atividade do usuário em uma única frase de busca concisa e eficaz. A frase DEVE SEMPRE incluir o termo 'lo-fi' ou um sinônimo (como 'chillhop' ou 'lofi beats'). Gere apenas a frase de busca em português, sem nenhuma outra palavra ou explicação. Exemplo de entrada: 'Estou em um dia chuvoso no meu trabalho e queria me sentir focado.' Exemplo de saída: 'lo-fi para foco em dia de chuva.Gere uma única e concisa frase de busca para músicas lo-fi, baseada em um humor ou cenário aleatório e interessante. Exemplos: 'lo-fi para uma tarde preguiçosa', 'chillhop para uma viagem noturna', 'lofi beats para dias de sol'. A frase DEVE incluir 'lo-fi' ou um sinônimo. Gere apenas a frase, sem mais nada.";
+                    content: "Você é um assistente especialista em gerar frases de busca para o YouTube, com foco exclusivo em músicas lo-fi. Sua tarefa é traduzir o humor, a ocasião ou a atividade do usuário em uma única frase de busca concisa e eficaz. A frase DEVE SEMPRE incluir o termo 'lo-fi' ou um sinônimo (como 'chillhop' ou 'lofi beats'). Gere apenas a frase de busca em português, sem nenhuma outra palavra ou explicação. Exemplo de entrada: 'Estou em um dia chuvoso no meu trabalho e queria me sentir focado.' Exemplo de saída: 'lo-fi para foco em dia de chuva.Caso não detecte a ocasião ou o mood a partir da frase que a pessoa digitou, exemplo(tabagismo, pirotecnia hospitalar ou jadiowjdiajfiwaijfo), gere uma única e concisa frase de busca para músicas lo-fi, baseada em um humor ou cenário aleatório e interessante. Exemplos: 'lo-fi para uma tarde preguiçosa', 'chillhop para uma viagem noturna', 'lofi beats para dias de sol'. A frase DEVE incluir 'lo-fi' ou um sinônimo. Gere apenas a frase, sem mais nada.";
                 },
                 {
                     role: "user",
@@ -146,6 +146,7 @@ app.get('/api/surprise-me', async (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor backend rodando em http://localhost:${port}`);
 });
+
 
 
 
