@@ -27,6 +27,14 @@ Love-Fi is a web application that combines artificial intelligence and music to 
 5. **📻 Live 24/7 Lo-Fi Radio**  
    For moments when users just want to listen, Love-Fi also offers a live lo-fi radio stream available 24/7.
 
+## 🧠 Technologies Used
+
+- **Frontend:** React.js  
+- **Backend:** Node.js + Express  
+- **AI & NLP:** Sentiment analysis using a language model  
+- **APIs:** YouTube Data API integration  
+- **Streaming:** Embedded lo-fi radio
+
 ---
 
 ## ⚙️ Installation and Local Setup
@@ -66,13 +74,6 @@ OTHER_CONFIG=your_other_config
 ### Love-Fi is a practical and creative example of how AI can be used to solve everyday problems, offering an interactive and personalized musical experience.
 This project demonstrates how a simple text description can become a unique sound journey using artificial intelligence.
 
-## 🧠 Technologies Used
-
-- **Frontend:** React.js  
-- **Backend:** Node.js + Express  
-- **AI & NLP:** Sentiment analysis using a language model  
-- **APIs:** YouTube Data API integration  
-- **Streaming:** Embedded lo-fi radio
 
 
 
