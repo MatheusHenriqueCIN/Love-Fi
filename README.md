@@ -1,61 +1,79 @@
-[ENG]
-Love-Fi is a web application project that combines the power of artificial intelligence with music to create a personalized lo-fi experience. The main idea behind the project is to use AI to analyze the user's mood and generate a tailor-made lo-fi playlist.
 
-How Love-Fi Works
-The project is based on AI's ability to process and interpret text. Instead of simply generating a generic playlist, Love-Fi asks the user to describe their current mood, activity, or occasion in a text box.
+Love-Fi
+✨ O que é o Love-Fi?
+Love-Fi é um aplicativo web que combina a inteligência artificial com a música para criar uma experiência lo-fi totalmente personalizada. O projeto nasceu da necessidade de aplicar IA de forma criativa na disciplina de Criatividade Computacional.
 
-Sentiment Analysis: The app's AI analyzes the text entered by the user to identify emotions such as happiness, sadness, focus, relaxation, and more.
+A ideia central é simples: o usuário descreve seu estado de espírito, atividade ou ocasião em uma caixa de texto, e o aplicativo usa a IA para gerar uma playlist de lo-fi exclusiva do YouTube.
 
-Playlist Generation: Based on this analysis, the AI accesses YouTube to search for and compile a lo-fi music playlist that matches the identified mood.
+🎵 Como Funciona
+Análise de Sentimento: Nossa IA processa o texto inserido para identificar emoções como felicidade, foco, relaxamento, ou tristeza.
 
-Personalized Experience: The result is a unique playlist that adapts to the user's moment, offering an ideal soundtrack for studying, relaxing, or working.
+Geração de Playlist: Com base no humor identificado, a IA busca e compila uma playlist de músicas lo-fi que se alinham perfeitamente com a sua "vibe".
 
-Live Lo-Fi Radio: For those moments when you just want to listen, Love-Fi also features a live radio that streams 24/7.
+Experiência Personalizada: O resultado é uma trilha sonora sob medida para o seu momento, ideal para estudar, trabalhar ou apenas relaxar.
 
-Love-Fi is a great example of how AI can be used creatively to enrich the human experience, turning a simple text description into a custom musical journey. The project demonstrates the practical application of AI to solve an everyday problem, creating a useful and innovative tool.
+Rádio Lo-Fi ao Vivo: Para quem prefere uma experiência mais passiva, o Love-Fi também oferece uma rádio que transmite música lo-fi 24/7.
 
-Dependency Installation
-Access the file by entering the root folder with: cd "folder"
+🚀 Guia de Instalação
+Siga os passos abaixo para rodar o projeto localmente.
 
-Install the dependencies with: npm install
+1. Instalar as Dependências
+Abra seu terminal e navegue até a pasta raiz do projeto.
 
-Access the server folder with: cd "folder/server"
+Bash
 
-Install the back-end dependencies.
+cd "pasta-do-projeto"
+Em seguida, instale as dependências do front-end:
 
-.Env File
-You should add the .env file to the program's root directory. Do not commit the .env folder; use .gitignore to prevent API key leaks. The correct .env file with all the necessary data was sent in the group.
+Bash
 
+npm install
+Agora, navegue para a pasta do servidor e instale as dependências do back-end:
 
-[PT]
+Bash
 
-O Love-Fi é um projeto de aplicativo web que explora a intersecção entre inteligência artificial e música, desenvolvido para a disciplina de Criatividade Computacional. A principal ideia por trás do projeto é criar uma experiência musical personalizada, usando IA para analisar o humor do usuário e gerar uma playlist de lo-fi sob medida.
+cd "pasta-do-projeto/server"
+npm install
+2. Configurar o Arquivo .env
+Você precisará de um arquivo .env para armazenar as chaves de API. Não suba este arquivo para o GitHub. Use o .gitignore para garantir que suas chaves permaneçam seguras.
 
-Como o Love-Fi Funciona
-O projeto se baseia na capacidade da IA de processar e interpretar texto. Em vez de simplesmente gerar uma playlist genérica, o Love-Fi pede ao usuário que descreva seu estado de espírito, atividade ou ocasião em uma caixa de texto.
+O arquivo .env deve ser colocado na raiz do projeto (pasta-do-projeto/).
 
-Análise de Sentimento: A IA do aplicativo analisa o texto inserido pelo usuário para identificar emoções, como felicidade, tristeza, foco, relaxamento, entre outras.
+✨ What is Love-Fi?
+Love-Fi is a web application that combines artificial intelligence with music to create a completely personalized lo-fi experience. The project was born from the need to apply AI creatively in the Computational Creativity course.
 
-Geração de Playlist: Com base nessa análise, a IA acessa o YouTube para buscar e compilar uma playlist de músicas lo-fi que correspondem ao humor identificado.
+The central idea is simple: the user describes their mood, activity, or occasion in a text box, and the application uses AI to generate an exclusive lo-fi playlist from YouTube.
 
-Experiência Personalizada: O resultado é uma playlist única, que se adapta ao momento do usuário, oferecendo uma trilha sonora ideal para estudar, relaxar ou trabalhar.
+🎵 How It Works
+Sentiment Analysis: Our AI processes the entered text to identify emotions such as happiness, focus, relaxation, or sadness.
 
+Playlist Generation: Based on the identified mood, the AI searches for and compiles a lo-fi music playlist that perfectly matches your "vibe."
 
-O Love-Fi é um excelente exemplo de como a IA pode ser usada de forma criativa para enriquecer a experiência humana, transformando uma simples descrição de texto em uma jornada musical sob medida. O projeto demonstra a aplicação prática da IA para resolver um problema cotidiano, criando uma ferramenta útil e inovadora.
+Personalized Experience: The result is a custom soundtrack for your moment, ideal for studying, working, or just relaxing.
 
-Instalar dependências:
+Live Lo-Fi Radio: For those who prefer a more passive experience, Love-Fi also offers a radio that streams lo-fi music 24/7.
 
+🚀 Installation Guide
+Follow the steps below to run the project locally.
 
-1 - Ao acessar o arquivo, entre na pasta raiz do arquivo com: cd "pasta"
-2 - Instale as dependencias com npm install
-3 - Acesse a pastar server com: cd "pasta/server"
-4 - Instale as dependências do back-end
+1. Install Dependencies
+Open your terminal and navigate to the project's root folder.
 
-.Env:
-O arquivo env você deve adicionar na raiz do programa, não de commit na pasta env, use o "gitignore" para nao ter vazamentos das API.
-O arquivo .env foi enviado no grupo com todos os dados certinhos.
+Bash
 
-<img width="1904" height="777" alt="image" src="https://github.com/user-attachments/assets/3f034ce0-1128-4263-b273-1470e910dc91" />
+cd "project-folder"
+Next, install the front-end dependencies:
 
+Bash
 
+npm install
+Now, navigate to the server folder and install the back-end dependencies:
 
+Bash
+
+cd "project-folder/server"
+npm install
+2. Configure the .env File
+You will need an .env file to store your API keys. Do not upload this file to GitHub. Use .gitignore to ensure your keys remain secure.
+
+The .env file should be placed in the project's root directory (project-folder/).
