@@ -1,39 +1,83 @@
-Love-Fi
-✨ O que é o Love-Fi?
-Love-Fi é um aplicativo web que combina a inteligência artificial com a música para criar uma experiência lo-fi totalmente personalizada. O projeto nasceu da necessidade de aplicar IA de forma criativa na disciplina de Criatividade Computacional.
+# 🎧 Love-Fi: Personalized Lo-Fi Music Powered by AI
 
-A ideia central é simples: o usuário descreve seu estado de espírito, atividade ou ocasião em uma caixa de texto, e o aplicativo usa a IA para gerar uma playlist de lo-fi exclusiva do YouTube.
+Love-Fi é um aplicativo web que combina inteligência artificial e música para criar uma experiência personalizada de lo-fi. Desenvolvido como parte da disciplina de **Criatividade Computacional**, o projeto transforma descrições de humor em trilhas sonoras sob medida, oferecendo uma forma inovadora de explorar o poder da IA no dia a dia.
 
-🎵 Como Funciona
-Análise de Sentimento: Nossa IA processa o texto inserido para identificar emoções como felicidade, foco, relaxamento ou tristeza.
+---
 
-Geração de Playlist: Com base no humor identificado, a IA busca e compila uma playlist de músicas lo-fi que se alinham perfeitamente com a sua "vibe".
+## 🚀 Como Funciona
 
-Experiência Personalizada: O resultado é uma trilha sonora sob medida para o seu momento, ideal para estudar, trabalhar ou apenas relaxar.
+1. **Entrada do Usuário**  
+   O usuário descreve seu estado de espírito, atividade ou ocasião em uma caixa de texto.
 
-Rádio Lo-Fi ao Vivo: Para quem prefere uma experiência mais passiva, o Love-Fi também oferece uma rádio que transmite música lo-fi 24/7.
+2. **Análise de Sentimento**  
+   A IA analisa o texto inserido e identifica emoções como:
+   - Felicidade
+   - Tristeza
+   - Foco
+   - Relaxamento
+   - E muito mais
 
-🚀 Guia de Instalação
-Siga os passos abaixo para rodar o projeto localmente.
+3. **Geração de Playlist**  
+   Com base na análise, a IA busca no YouTube músicas lo-fi que correspondem ao humor identificado, criando uma playlist personalizada.
 
-1. Instalar as Dependências
-Abra seu terminal e navegue até a pasta raiz do projeto.
+4. **Experiência Personalizada**  
+   O resultado é uma trilha sonora feita sob medida para estudar, relaxar ou trabalhar.
 
-Bash
+5. **📻 Rádio Ao Vivo 24/7**  
+   Para momentos em que o usuário prefere apenas ouvir, o Love-Fi também oferece uma rádio lo-fi ao vivo, disponível 24 horas por dia.
 
-cd "pasta-do-projeto"
-Em seguida, instale as dependências do front-end:
+---
 
-Bash
+## 🧠 Tecnologias Utilizadas
 
+- **Frontend:** React.js  
+- **Backend:** Node.js + Express  
+- **AI & NLP:** Análise de sentimentos com modelo de linguagem  
+- **APIs:** Integração com YouTube Data API  
+- **Streaming:** Rádio lo-fi embutida
+
+---
+
+## ⚙️ Instalação e Execução Local
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/love-fi.git
+cd love-fi
+```
+
+### 2. Instale as dependências do frontend
+
+```bash
 npm install
-Agora, navegue para a pasta do servidor e instale as dependências do back-end:
+```
 
-Bash
+### 3. Acesse a pasta do backend e instale as dependências
 
-cd "pasta-do-projeto/server"
+```bash
+cd server
 npm install
-2. Configurar o Arquivo .env
-Você precisará de um arquivo .env para armazenar as chaves de API. Não suba este arquivo para o GitHub. Use o .gitignore para garantir que suas chaves permaneçam seguras.
+```
 
-O arquivo .env deve ser colocado na raiz do projeto (pasta-do-projeto/).
+## 🔐 Configuração do .env
+
+### Crie um arquivo .env na raiz do projeto com as seguintes chaves:
+
+```bash
+# Exemplo de variáveis
+API_KEY=your_api_key_here
+OTHER_CONFIG=your_config_here
+```
+
+## 💡 Sobre o Projeto
+
+### Love-Fi é um exemplo prático e criativo de como a IA pode ser aplicada para resolver problemas cotidianos, proporcionando uma experiência musical interativa e personalizada.
+Este projeto demonstra como é possível transformar uma simples descrição de texto em uma jornada sonora única com o uso de inteligência artificial.
+
+## 📸 Imagens:
+<img width="1903" height="946" alt="image" src="https://github.com/user-attachments/assets/de5eed8d-82f7-44c6-87c3-6a359c5495a8" />
+![WhatsApp Image 2025-09-23 at 22 18 40](https://github.com/user-attachments/assets/1a46b6fd-e67e-4acd-80ea-eddc96808812)
+
+
+
