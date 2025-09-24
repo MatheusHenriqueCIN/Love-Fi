@@ -77,7 +77,8 @@ Este projeto demonstra como é possível transformar uma simples descrição de 
 
 ## 📸 Imagens:
 <img width="1903" height="946" alt="image" src="https://github.com/user-attachments/assets/de5eed8d-82f7-44c6-87c3-6a359c5495a8" />
-![WhatsApp Image 2025-09-23 at 22 18 40](https://github.com/user-attachments/assets/1a46b6fd-e67e-4acd-80ea-eddc96808812)
+<img width="786" height="324" alt="image" src="https://github.com/user-attachments/assets/c5883a96-a698-4597-97ea-c03e0801a76c" />
+
 
 
 
