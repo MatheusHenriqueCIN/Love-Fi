@@ -1,3 +1,9 @@
+[🇺🇸]
+
+
+
+[🇧🇷]
+
 # 🎧 Love-Fi: Personalized Lo-Fi Music Powered by AI
 
 Love-Fi é um aplicativo web que combina inteligência artificial e música para criar uma experiência personalizada de lo-fi. Desenvolvido como parte da disciplina de **Criatividade Computacional**, o projeto transforma descrições de humor em trilhas sonoras sob medida, oferecendo uma forma inovadora de explorar o poder da IA no dia a dia.
