@@ -1,4 +1,78 @@
 [🇺🇸]
+# 🎧 Love-Fi: Personalized Lo-Fi Music Powered by AI
+
+Love-Fi is a web application that combines artificial intelligence and music to create a personalized lo-fi experience. Developed as part of the **Computational Creativity** course, the project transforms mood descriptions into custom soundtracks, offering an innovative way to explore the power of AI in everyday life.
+
+---
+
+## 🚀 How It Works
+
+1. **User Input**  
+   The user describes their mood, activity, or occasion in a text box.
+
+2. **Sentiment Analysis**  
+   The AI analyzes the input text and detects emotions such as:
+   - Happiness  
+   - Sadness  
+   - Focus  
+   - Relaxation  
+   - And more
+
+3. **Playlist Generation**  
+   Based on the analysis, the AI searches YouTube for lo-fi tracks that match the identified mood, creating a personalized playlist.
+
+4. **Tailored Experience**  
+   The result is a unique soundtrack designed to help the user study, relax, or work.
+
+5. **📻 Live 24/7 Lo-Fi Radio**  
+   For moments when users just want to listen, Love-Fi also offers a live lo-fi radio stream available 24/7.
+
+---
+
+## ⚙️ Installation and Local Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/love-fi.git
+cd love-fi
+```
+
+## 2. Install frontend dependencies
+
+```bash
+npm install
+```
+
+## 3. Navigate to the backend folder and install its dependencies
+
+```bash
+cd server
+npm install
+```
+
+## 🔐 .env Configuration
+
+### Create a .env file in the root of the project with the required keys:
+
+```bash
+# Example
+API_KEY=your_api_key_here
+OTHER_CONFIG=your_other_config
+```
+
+## 💡 About the Project
+
+### Love-Fi is a practical and creative example of how AI can be used to solve everyday problems, offering an interactive and personalized musical experience.
+This project demonstrates how a simple text description can become a unique sound journey using artificial intelligence.
+
+## 🧠 Technologies Used
+
+- **Frontend:** React.js  
+- **Backend:** Node.js + Express  
+- **AI & NLP:** Sentiment analysis using a language model  
+- **APIs:** YouTube Data API integration  
+- **Streaming:** Embedded lo-fi radio
 
 
 
